@@ -1,0 +1,157 @@
+/*    creat a media file  */
+
+/*  Extra small device */
+@media (max-width: 767px) {
+.common_bg{
+    background-color: #9EC3FA;
+    margin-top: 15px;
+}
+.header_height{
+    min-height: 100px;
+}
+.item_one{
+    background-color: #CFE1FB;
+    
+}
+.item_two{
+    background-color: #69A6DE;
+    height: 80px;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.padding_right_disable{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.brand,.gloval_nav,.tools{
+    min-height: 70px; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.hero_height{
+    min-height: 150px;
+}
+.hero_feature,.call_to_action{
+         min-height: 60px;
+    margin-top: 36px;
+    margin-bottom: 10px;
+}
+.article_height{
+    min-height: 500px;
+}
+.article_height{
+        min-height: 350px;
+    
+}
+.article_feature{
+       min-height: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+    .article_listing{
+       min-height: 150px;
+    margin-top: -56px;
+    margin-bottom: 15px;
+}
+.sidebar_feature{
+        min-height: 190px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+}
+.sidebar_content{
+   min-height: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer_height{
+    min-height: 75px;
+    margin-bottom: 25px;
+    margin-top: 0px;
+}
+
+}
+
+/*  small device */
+@media (min-width: 768px) and (max-width: 991px) {
+.common_bg{
+    background-color: #9EC3FA;
+    margin-top: 15px;
+}
+.header_height{
+    min-height: 100px;
+}
+.item_one{
+    background-color: #CFE1FB;
+    
+}
+.item_two{
+    background-color: #69A6DE;
+    height: 150px; 
+    margin-top: 15px;
+}
+.padding_right_disable{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.brand,.gloval_nav,.tools{
+    min-height: 70px; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.hero_height{
+    min-height: 150px;
+}
+.hero_feature,.call_to_action{
+       min-height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    
+.add{
+    text-align:center;
+}
+.article_height{
+    min-height: 500px;
+}
+.article_height{
+        min-height: 350px;
+    
+}
+.article_feature{
+    min-height: 100px;
+    margin-top: 64px;
+    margin-bottom: 15px;
+}
+.article_listing{
+   min-height: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    }
+
+.sidebar_feature{
+    min-height: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+}
+.sidebar_content{
+   min-height: 60px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.footer_height{
+    min-height: 75px;
+    margin-bottom: 25px;
+    margin-top: 6px;
+}
+
+}
+
+/*  medium device or desktop device */
+@media (min-width: 992px) and (max-width: 1199px) {  }
+
+/*  large device */
+@media (min-width: 1200px) {  }
